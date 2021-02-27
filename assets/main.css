@@ -399,6 +399,9 @@ opacity: 0.75;
   #cursor {
   display: none;
 }
+  .nocursor {
+    display: none;
+  }
 
 }
 
