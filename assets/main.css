@@ -97,7 +97,9 @@ display: grid;
   width: auto;
 }
 
-
+#cursor {
+  display: none;
+}
 
 #text-1 {
 
