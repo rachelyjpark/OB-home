@@ -395,7 +395,7 @@ opacity: 0.75;
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 799px) {
   #cursor {
   display: none;
 }
