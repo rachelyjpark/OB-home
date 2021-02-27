@@ -1,0 +1,405 @@
+* {box-sizing: border-box;}
+html {
+  background: white;
+ }
+h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+font-family: juniper-std, sans-serif;
+
+  font-weight: 400;
+
+  font-style: normal;
+}
+h2 {
+    display: flex;
+  justify-content: center;
+  text-align: center;
+   font-family: linotype-sabon, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+}
+body {
+  background: white;
+
+}
+
+.box {
+      display: flex;
+
+}
+.box1 {
+  position: relative;
+background-color: #E1CBC9;
+  color: white;
+    display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 10px;
+  font-family: arial;
+}
+.box2 {
+  background-color: white;
+    display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 10px;}
+
+.box2 {background-color:  #C5D2D0}
+.box3 {background-color: #E3C080}
+.box4 {background-color: #BCC29D}
+.box5 {background-color: #E89E80}
+.box6 {background-color:  #244A75}
+.box7 {background-color: #DAB348}
+.box8 {background-color: #4F5631}
+.box9 {background-color:  #C7C2B7}
+
+
+.box1:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+
+@keyframes move {
+  0%{right:0%;}
+  50%{left:50%;}
+  100%{left: 100%;}
+}
+.box2:hover {background-color: white}
+.box3:hover {background-color: white}
+.box4:hover {background-color: white}
+.box5:hover {background-color: white}
+.box6:hover {background-color: white}
+.box7:hover {background-color: white}
+.box8:hover {background-color: white}
+.box9:hover {background-color: white}
+
+.container {
+  border: 15px solid pink;
+display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto;
+  grid-template-areas: 
+    "header" 
+    "content1 content2 content3 content4 content5 content content content sidebar";
+  min-height: 100vh;
+}
+.box {
+  border: 1px solid black;
+  color: black;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: auto;
+}
+
+
+
+#text-1 {
+
+  display: flex;
+  font-size: 30px;
+  position: relative;
+  top:20px;
+   font-family: linotype-sabon, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+#text-2 {
+  display: flex;
+  font-size: 30px;
+  position: relative;
+  top: 20px;
+   font-family: linotype-sabon, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#text-3 {
+  display: flex;
+  font-size: 30px;
+  position: relative;
+  top: 20px;
+   font-family: linotype-sabon, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#text-4 {
+  display: flex;
+  font-size: 30px;
+  position: relative;
+  top: 20px;
+   font-family: linotype-sabon, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#text-5 {
+  display: flex;
+  font-size: 30px;
+  position: relative;
+  top: 20px;
+   font-family: linotype-sabon, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#text-6 {
+  display: flex;
+  font-size: 30px;
+  position: relative;
+  top: 20px;
+   font-family: linotype-sabon, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#text-7 {
+  display: flex;
+  font-size: 30px;
+  position: relative;
+  top: 20px;
+   font-family: linotype-sabon, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#text-8 {
+  display: flex;
+  font-size: 30px;
+  position: relative;
+  top: 20px;
+   font-family: linotype-sabon, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#text-9 {
+  display: flex;
+  font-size: 30px;
+  position: relative;
+  top: 20px;
+   font-family: linotype-sabon, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+   font-family: linotype-sabon, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.cursor {
+  width: 800px;
+  height: 500px;
+  background: blue;
+  cursor: none;
+
+}
+
+
+@media only screen and (min-width: 800px) {
+  * {box-sizing: border-box;}
+
+html {
+  background: white;
+}
+body {
+  cursor: url(assets/imgs/circle.png), auto;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: juniper-std, sans-serif;
+
+  font-weight: 400;
+
+  font-style: normal;
+  font-size: 60px;
+}
+h2 {
+    display: flex;
+  justify-content: center;
+  text-align: center;
+   font-family: linotype-sabon, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
+body {
+  background: white;
+
+}
+
+
+.box1 {background-color: #E1CBC9;}
+.box2 {background-color:  #C5D2D0}
+.box3 {background-color: #E3C080}
+.box4 {background-color: #BCC29D}
+.box5 {background-color: #E89E80}
+.box6 {background-color:  #244A75}
+.box7 {background-color: #DAB348}
+.box8 {background-color: #4F5631}
+.box9 {background-color:  #C7C2B7}
+
+
+.box1:hover {
+  background-color: white
+}
+@media only screen and (min-width: 600px) {
+
+#text-1 {
+  display: flex;
+  font-size: 50px;
+  position: relative;
+  top: 50px;
+ font-family: linotype-sabon, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#text-2 {
+  display: flex;
+  font-size: 50px;
+  position: relative;
+  top: 50px;
+   font-family: linotype-sabon, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#text-3 {
+  display: flex;
+  font-size: 50px;
+  position: relative;
+  top: 50px;
+   font-family: linotype-sabon, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#text-4 {
+  display: flex;
+  font-size: 50px;
+  position: relative;
+  top: 50px;
+   font-family: linotype-sabon, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#text-5 {
+  display: flex;
+  font-size: 50px;
+  position: relative;
+  top: 50px;
+   font-family: linotype-sabon, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#text-6 {
+  display: flex;
+  font-size: 50px;
+  position: relative;
+  top: 50px;
+   font-family: linotype-sabon, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#text-7 {
+  display: flex;
+  font-size: 50px;
+  position: relative;
+  top: 50px;
+   font-family: linotype-sabon, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#text-8 {
+  display: flex;
+  font-size: 50px;
+  position: relative;
+  top: 50px;
+   font-family: linotype-sabon, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#text-9 {
+  display: flex;
+  font-size: 50px;
+  position: relative;
+  top: 50px;
+   font-family: linotype-sabon, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+@keyframes move {
+  0%{right:0%;}
+  50%{left:50%;}
+  100%{left: 100%;}
+}
+.box2:hover {background-color: white}
+.box3:hover {background-color: white}
+.box4:hover {background-color: white}
+.box5:hover {background-color: white}
+.box6:hover {background-color: white}
+.box7:hover {background-color: white}
+.box8:hover {background-color: white}
+.box9:hover {background-color: white}
+
+.container {
+border: 10px solid pink;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+min-height: 100vh;
+}
+
+.box {
+  border: 1px solid black;
+  color: black;
+  font-size: 3rem;
+  padding: 2rem;
+  text-align: center;
+  width: 33.3333%;
+}
+
+.circle {
+position: absolute;
+top: 62%;
+left: 43%;
+    height: 200px;
+  width: 200px;
+  background-color: red;
+  border-radius: 50%;
+opacity: 0.75;
+}
+  
+  a {
+    color: white;
+     font-family: linotype-sabon, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  }
+
+#cursor{
+    position: absolute;
+      z-index: 20;
+      pointer-events: none;
+}
+
+
+}
+}
+
+
